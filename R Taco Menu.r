@@ -1,52 +1,49 @@
-> taco.picadillo
-[1] 2.75
-> taco.roasted_pork
-[1] 2.75
-> taco.beef_fajita
-[1] 3.25
-> taco.chicken_fajita <- 2.75
-> taco.brisket <- 3.25
-> taco.rajas <- 2.50
-> taco.fish <- 3
-> taco.baja_shrimp <- 3.25
-> taco.rusty <- 2.75
-> taco.fried_chicken <- 2.75
-> taco.bbq_brisket <- 3.25
-> taco.black_bean <- 2.50
-> taco.texican <- 2.75
-> taco.gringo <- 2.75
-> avocado <- .35
-> breakfast.bacon_egg_cheese <- 2.75
-> breakfast.chorizo_egg_cheese <- 2.75
-> breakfast.jalapeno_sausage_egg_cheese <- 2.75
-> breakfast.brisket_egg_cheese <- 2.75
-> breakfast.brisket_egg_cheese <- 3.25
-> breakfast.beef_fajita_egg_cheese <- 3.25
-> breakfast.potato_egg_cheese <- 2.50
-> nachos <- 5
-> topping.black_bean <- .75
-> topping.chicken <- .75
-> topping.queso_cheese <- .75
-> topping.spicy_beef <- .75
-> topping.chorizo <- .75
-> kid.quesadilla <- 2
-> kid.brisket_taco <- 3.25
-> kid.chicken_taco <- 2.75
-> ls()
- [1] "avocado"                               "breakfast.bacon_egg_cheese"
- [3] "breakfast.beef_fajita_egg_cheese"      "breakfast.brisket_egg_cheese"
- [5] "breakfast.chorizo_egg_cheese"          "breakfast.jalapeno_sausage_egg_cheese"
- [7] "breakfast.potato_egg_cheese"           "kid.brisket_taco"
- [9] "kid.chicken_taco"                      "kid.quesadilla"
-[11] "nachos"                                "taco.baja_shrimp"
-[13] "taco.bbq_brisket"                      "taco.beef_fajita"
-[15] "taco.black_bean"                       "taco.brisket"
-[17] "taco.chicken_fajita"                   "taco.fish"
-[19] "taco.fried_chicken"                    "taco.gringo"
-[21] "taco.picadillo"                        "taco.rajas"
-[23] "taco.roasted_pork"                     "taco.rusty"
-[25] "taco.texican"                          "topping.black_bean"
-[27] "topping.chicken"                       "topping.chorizo"
-[29] "topping.queso_cheese"                  "topping.spicy_beef"
-> sides.chips_salsa <- 2.50
-> sides.chips_pico_de_gallo <- 2.50
+> str(as.list(.GlobalEnv))
+List of 47
+ $ beer.tap                             : num 4
+ $ taco.chicken_fajita                  : num 2.75
+ $ drink.mexican_cola                   : num 2.25
+ $ nachos                               : num 5
+ $ taco.rajas                           : num 2.5
+ $ drink.jarritos                       : num 2.25
+ $ taco.brisket                         : num 3.25
+ $ breakfast.potato_egg_cheese          : num 2.5
+ $ drink.juice                          : num 2
+ $ breakfast.brisket_egg_cheese         : num 3.25
+ $ breakfast.bacon_egg_cheese           : num 2.75
+ $ breakfast.jalapeno_sausage_egg_cheese: num 2.75
+ $ topping.spicy_beef                   : num 0.75
+ $ taco.roasted_pork                    : num 2.75
+ $ taco.fried_chicken                   : num 2.75
+ $ topping.chicken                      : num 0.75
+ $ avocado                              : num 0.35
+ $ topping.chorizo                      : num 0.75
+ $ sides.chips_queso                    : num 3.25
+ $ taco.picadillo                       : num 2.75
+ $ drink.rusty_margarita                : num 5
+ $ taco.beef_fajita                     : num 3.25
+ $ sides.chips_salsa                    : num 2.5
+ $ drink.soda                           : num 2
+ $ sides.black_beans                    : num 2
+ $ drink.wine_red                       : num 4
+ $ drink.wine_white                     : num 4
+ $ breakfast.beef_fajita_egg_cheese     : num 3.25
+ $ meal.blake                           : num 7.5
+ $ taco.fish                            : num 3
+ $ taco.texican                         : num 2.75
+ $ topping.black_bean                   : num 0.75
+ $ taco.black_bean                      : num 2.5
+ $ taco.baja_shrimp                     : num 3.25
+ $ kid.quesadilla                       : num 2
+ $ beer.pitcher                         : num 14
+ $ taco.bbq_brisket                     : num 3.25
+ $ beer.bottle                          : num 4
+ $ topping.queso_cheese                 : num 0.75
+ $ breakfast.chorizo_egg_cheese         : num 2.75
+ $ sides.chips_guacamole                : num 3.25
+ $ taco.rusty                           : num 2.75
+ $ drink.milk                           : num 2
+ $ kid.chicken_taco                     : num 2.75
+ $ kid.brisket_taco                     : num 3.25
+ $ sides.chips_pico_de_gallo            : num 2.5
+ $ taco.gringo                          : num 2.75
