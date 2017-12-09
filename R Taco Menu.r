@@ -47,3 +47,5 @@ List of 47
  $ kid.brisket_taco                     : num 3.25
  $ sides.chips_pico_de_gallo            : num 2.5
  $ taco.gringo                          : num 2.75
+
+ menu.matrix <- matrix(1:47)
