@@ -49,3 +49,4 @@ List of 47
  $ taco.gringo                          : num 2.75
 
  menu.matrix <- matrix(1:47)
+ library(ggplot2)
